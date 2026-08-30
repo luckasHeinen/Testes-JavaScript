@@ -1,1 +1,3 @@
-let conta = 'google';
+let tempoDeCurso = 1;
+typeof tempoDeCurso
+
