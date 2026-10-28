@@ -38,7 +38,6 @@ function filtrarPorPrioridade(prioridade) {
     return chamados.filter(item => item.prioridade.toLowerCase() === prioridade.toLowerCase());
 }
 
-// Abrindo chamados de teste
 abrirChamado('Ana', 'Impressora do 2º andar sem toner', 'Média');
 abrirChamado('Carlos', 'Lentidão no sistema principal', 'Alta');
 abrirChamado('Mariana', 'Cabo de rede danificado', 'Alta');
@@ -53,7 +52,6 @@ console.log(filtrarPorPrioridade('Alta'));
 console.log('--- TODOS OS CHAMADOS ---');
 console.log(listarChamados());
 
-// 5. Função para gerar um relatório estatístico dos chamados
 function relatorioChamados() {
   const total = chamados.length;
   const abertos = chamados.filter(item => item.status === 'Aberto').length;

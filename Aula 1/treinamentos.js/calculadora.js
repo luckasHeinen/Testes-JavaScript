@@ -46,7 +46,7 @@ function verHistorico() {
 
 console.log(calcular(10, '+', 5));
 console.log(calcular(20, '/', 4));
-console.log(calcular(10, '/', 0)); // Teste de erro
+console.log(calcular(10, '/', 0)); 
 console.log(calcular(8, '*', 3));
 
 console.log('--- HISTÓRICO ---');

@@ -63,15 +63,13 @@ function buscarPorNome (termo) {
     return resultado;
 }
 
-// Teste de Busca
+
 console.log('--- Busca por "Unifi" ---');
 console.log(buscarPorNome('Unifi'));
 
-// Teste de Remoção
 console.log('--- Remoção do ID 2 ---');
 console.log(removerEquipamento(2));
 
-// Relatório Atualizado após remoção
 console.log('--- Relatório Atualizado ---');
 console.log(relatorioGeral());
 
